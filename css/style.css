@@ -1,0 +1,167 @@
+/*главная страница!*/
+
+/*вся шапка целиком*/
+header {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #524646;
+    padding: 15px 30px;
+    border-radius: 22px;
+}
+
+/*имя автора*/
+.logo_name_author {
+    display: flex;
+    align-items: center; 
+    gap: 15px;
+    font-size: 24px;
+    color: #6e9bd2; 
+}
+
+/*лого, фотка*/
+.logo_svg_author {
+    display: block;
+    width: 40px;   
+    height: auto; 
+}
+
+/*текст*/
+.navigation {
+    
+    display: flex;     
+    gap: 22px;        
+    font-size: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Great Vibes", cursive;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+h2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.terms-block{
+
+}
+
+footer {
+    background-color: blanchedalmond;
+    border-radius: 30px;
+    padding: 10px;
+
+}
+.about_image_one{
+    display: flex;
+    margin: 0 auto 20px auto;
+    align-items: center;
+}
+.about{
+    font-size: 20px;
+    padding: 6px;
+    background-color: darkgrey;
+}
+
+.articles{
+    font-size: 25px;
+    background-color: chartreuse;
+}
+
+p {
+    font-family: "Great Vibes", cursive;
+    font-size: 20px;
+    line-height: 1.6; 
+    color: white;
+    margin-bottom: 20px;
+}
+
+p::first-line {
+    
+    letter-spacing: 4px;
+}
+
+
+.table_stats{
+    font-size: 26px;
+    padding: 12px;
+    margin: 16px;
+}
+
+
+
+ul{
+    list-style-type: none;
+    
+    gap: 22px;
+    justify-content: center;
+}
+
+a:hover, a.cover{
+    color:rgb(231, 18, 213)
+}
+
+
+.articles li:nth-child(even) {
+    background-color: #d21c1c;
+}
+
+.articles li:nth-child(odd) {
+    background-color: #6cd6fd;
+}
+
+.articles li:nth-child(4) a::after {
+    content: "Важно!";
+}
+
+
+dd:lang(en) {
+    font-style: italic;
+    color: #4a6fa5;     
+    letter-spacing: 0.5px;  
+}
+
+#intro p {
+    background-color: #05e92f;
+}
+
+#intro blockquote{
+    background-color: #d21c1c;
+}
+
+#intro cite{
+    background-color: #6e9bd2;
+}
+
+#my_footer p{
+    border: 4px solid blue;
+}
+
+#my_footer img{
+    border: 4px solid red;
+}
+
+img + p {
+    margin-top: 200px;
+}
