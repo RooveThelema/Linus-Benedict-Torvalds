@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 800px;
+    height: 800px;
+    border: 5px solid darkblue;
+    background: gray;
+    padding: 30px;
+    margin: 100px auto;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    border: 5px solid darkblue;
+    background: coral;
+    padding: 20px;
+}
+
+.block:nth-child(2){
+    position: relative;
+    top:200px;
+    left:300px;
+    z-index: 0;
+}

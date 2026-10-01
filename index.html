@@ -43,6 +43,9 @@
             <li>
                 <a href="#info">Информация</a>
             </li>
+            <li>
+                <a href="#feedback">Обратная связь</a>
+            </li>
         </ul>
     </header> 
 
@@ -80,6 +83,41 @@
                     <a href="terms.html">Список терминов</a>
                 </li>
             </ol>
+        </section>
+        <section class="feedback" id="feedback">
+            <h2>Обратная связь</h2>
+
+            <form action="" id="contact-form">
+                <div class="form__item">
+                    <label for="topic">Тема</label><br>
+                    <select name="topic" id="topic" required>
+                        <option value="1">Я куст?</option>
+                        <option value="2">да!</option>
+                        <option value="3">Я толя</option>
+                        <option value="4">Пу пу пу</option>
+                    </select>
+                </div>
+                <div class="form__item">
+                    <label for="name">Имя</label><br>
+                    <input name="name" id="name" type="text" placeholder="ваше имя 👉👈" required>
+                </div>
+                <div class="form__item">
+                    <label for="email">E-mail</label><br>
+                    <input name="email" id="email" type="email" placeholder="ваш емальчик 👉👈" required>
+                </div>z
+                <div class="form__item">
+                    <label for="message">Текст сообщения</label><br>
+                    <textarea name="message" id="message" rows="6" placeholder="н....на пишите мне 👉👈" required></textarea>
+                </div>
+
+                <div class="form__item form__item_check">
+                    <input name="agree" id="agree" type="checkbox" required>
+                    <label for="agree">Я согласен с политикой конфиденциальности</label>
+                </div>
+                <div class="form__item">
+                    <input type="submit" value="Отправить">
+                </div>
+            </form>
         </section>
     </main>
 
