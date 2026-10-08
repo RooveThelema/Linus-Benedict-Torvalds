@@ -211,7 +211,9 @@ img + p {
 }
 
 #contact-form input[type="text"],
-#contact-form input[type="email"]{
+#contact-form input[type="email"],
+#contact-form input[type="date"],
+#contact-form input[type="tel"]{
     height: 20px;
     width: 250px;
     padding: 5px;
@@ -240,4 +242,22 @@ img + p {
 .feedback {
     background-color: #42006b;
     padding: 6px 20px 20px 20px;
+}
+
+#contact-form label {
+    color: white;
+}
+
+#contact-form select,
+#contact-form textarea {
+  width: 290px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: white solid 1;
+  background-color: #eddfff;
+}
+
+#contact-form input[type="checkbox"] {
+  margin-right: 8px;
+  accent-color: #a57fc9;
 }
